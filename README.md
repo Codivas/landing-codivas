@@ -15,6 +15,11 @@ Sente que pode nos ajudar?
 Por favor, veja se pode ajudar em algum item de nossas issues ou nos chame no e-mail coletivocodivas@gmail.com.
 instagram.com/co.divas
 
+Como colaborar?
+- Escolha uma Issue e envie sua alteração por pull-request ;)
+
+Vamos receber sua sugestão de melhora no código, estando tudo certo, daremos o merge para a master e inserimos seu nome como colaboradora do projeto.
+
 
 VAMOS JUNTES!
 
