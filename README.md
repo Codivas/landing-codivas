@@ -1,5 +1,5 @@
 # landing-codivas-V1
-Projeto Open source de site para o coletivo Codivas.
+Projeto de site para o coletivo Codivas.
 
 Repositório colaborativo para desenolvimento responsivo de landing page do Coletivo Codivas.
 
