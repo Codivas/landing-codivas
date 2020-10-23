@@ -18,6 +18,9 @@ instagram.com/co.divas
 Como colaborar?
 - Escolha uma Issue e envie sua alteração por pull-request ;)
 
+Sugestão para commits:
+- coloque o numero da issue que alterou, no inicio do commit. exemplo #123: alterei a cor do h2 
+
 Vamos receber sua sugestão de melhora no código, estando tudo certo, daremos o merge para a master e inserimos seu nome como colaboradora do projeto.
 
 
