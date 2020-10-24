@@ -485,6 +485,10 @@ mark,
   height: auto;
 }
 
+.img-logo {
+  max-width: 10rem;
+}
+
 .figure {
   display: inline-block;
 }
