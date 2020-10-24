@@ -1,5 +1,5 @@
 # landing-codivas-V1
-Projeto de site para o coletivo Codivas.
+Projeto Open source de site para o coletivo Codivas.
 
 Repositório colaborativo para desenolvimento responsivo de landing page do Coletivo Codivas.
 
@@ -14,14 +14,6 @@ Precisamos construir um site de página única, para captação de novos cliente
 Sente que pode nos ajudar?
 Por favor, veja se pode ajudar em algum item de nossas issues ou nos chame no e-mail coletivocodivas@gmail.com.
 instagram.com/co.divas
-
-Como colaborar?
-- Escolha uma Issue e envie sua alteração por pull-request ;)
-
-Sugestão para commits:
-- coloque o numero da issue que alterou, no inicio do commit. exemplo #123: alterei a cor do h2 
-
-Vamos receber sua sugestão de melhora no código, estando tudo certo, daremos o merge para a master e inserimos seu nome como colaboradora do projeto.
 
 
 VAMOS JUNTES!
