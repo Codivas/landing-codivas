@@ -10165,3 +10165,30 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+.containerSocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+#instagram {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0.5rem;
+ }
+
+ 
+#linkedin {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: 0.4rem;
+}
+
+#github {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0.5rem;
+
+}
