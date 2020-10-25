@@ -17,6 +17,27 @@ instagram.com/coletivocodivas
 
 Ao contribuir com um PR , insira sus informaçoes no contributor.md ,issue #16
 
+O que acha? pode colaborar?
+1Procure uma issue que gostaria de colaborar
+2 Clone os arquivos do repositório
+(git clone link- do- repositório)
+3 Faça sua sugestão de alteração , localmente em sua máquina
+
+tudo pronto por aí ?
+abra o terminal na pasta que os arquivos foram clonado
+dê os comando básicos de inicialização como
+git init
+git status
+git add .
+git status
+git commit -m "um resumo do que altero"
+
+4 Crie uma branch com o nome e numero da issue e seu usuario do github- exemplo: issue45-monteirocamis e já mude para ela
+(git checkout -b issue45-alterar-nomes)
+5 Envie sua sugestão de alteração para o coletivo
+(git push origin nome-da-sua-branch
+
+Vamos analisar e dar merge na master ;)
 
 VAMOS JUNTES!
 
