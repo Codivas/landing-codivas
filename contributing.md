@@ -14,6 +14,15 @@
 - Codivas - cowork - OpenSource (https://github.com/codivas)
 - Camon - Brand - Clothes made with sustainable design and wearable projects(https://www.ateliecamon.com.br)
 
+### Name: [Karen Rodriguez](https://github.com/kleyla)
+
+- Place: Santa Cruz, Bolivia
+- Bio: Full Stack Web Developer.
+
+#### Development
+
+- Web development (HTML, CSS, JavaScript, Python, Php, Bootstrap, Laravel, Flask, React, MySQL)
+
 ### Name: [YOUR NAME ](https://github.com/yourgithubprofile)
 
 - Place: city, country
