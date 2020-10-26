@@ -50,3 +50,51 @@ Vamos receber sua sugestão de melhora no código, estando tudo certo, daremos o
 
 VAMOS JUNTES!
 
+
+# landing-codivas-V1
+Open source website project for the Codivas collective.
+
+Collaborative repository participating in the hacktoberfest, for responsive development of landing page, by Coletivo Codivas.
+
+We are a collective for freelance services or PJ for developer people.
+We give priority to women's empowerment, regardless of any race, nationality or gender.
+We seek horizontalization within all projects within the collective, without high positions or unequal salaries.
+
+We were born with the objective of taking opportunities for Cis or Trans women, who wish to work with technology in an environment of respect, serority,
+sincerity and mutual learning.
+
+We need to build a single page website to attract new customers and new professionals.
+Do you feel you can help us?
+Please see if you can help with any of our issues or call us at collectivocodivas@gmail.com.
+
+instagram.com/co.divas
+
+How to collaborate?
+- Choose an Issue and submit your change by pull-request;)
+
+Suggestion for commits:
+- put the issue number that you changed, at the beginning of the commit. example # 123: I changed the color of the h2
+
+-  What do you think? can you collaborate?
+1 - Search for an issue you would like to collaborate with
+2 - Clone the repository files
+(git clone link- do- repository)
+3 - Make your change suggestion, locally on your machine
+
+
+everything ready out there?
+open the terminal in the folder where the files were cloned
+give the basic boot commands like
+git init
+git status
+git add.
+git status
+git commit -m "a summary of what I change"
+
+
+4 - Create a branch with the name and number of the issue and your github user- example: issue45-monteirocamis and change to it
+(git checkout -b issue45-change-names)
+5 - Send your change suggestion to the collective
+(git push origin your-branch-name)
+
+We will receive your suggestion for improvement in the code, being all right, we will give the merge to the master and insert your name as a project collaborator.
