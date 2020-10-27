@@ -14,6 +14,19 @@
 - Codivas - cowork - OpenSource (https://github.com/codivas)
 - Camon - Brand - Clothes made with sustainable design and wearable projects(https://www.ateliecamon.com.br)
 
+### Name: [Casiimir Casimiro](https://github.com/casiimir)
+
+- Place: Sicily, Italy
+- Bio: Front-End.
+
+#### Development
+
+- Web development (HTML,CSS,JavaScript,Bootstrap,Vue,React)
+
+#### Projects
+
+- none
+
 ### Name: [YOUR NAME ](https://github.com/yourgithubprofile)
 
 - Place: city, country
