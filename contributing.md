@@ -15,6 +15,20 @@
 - Camon - Brand - Clothes made with sustainable design and wearable projects(https://www.ateliecamon.com.br)
 
 
+### Name: [Casiimir Casimiro](https://github.com/casiimir)
+
+- Place: Sicily, Italy
+- Bio: Front-End.
+
+#### Development
+
+- Web development (HTML,CSS,JavaScript,Bootstrap,Vue,React)
+
+#### Projects
+
+- none
+
+
 ### Name: [NATAYRA SANTOS](https://github.com/natayra)
 
 - Place: Zurich, Switzerland
@@ -40,6 +54,7 @@
 #### Development
 
 - Web development (HTML, CSS, JavaScript, Python, Php, Bootstrap, Laravel, Flask, React, MySQL)
+
 
 
 ### Name: [YOUR NAME ](https://github.com/yourgithubprofile)
