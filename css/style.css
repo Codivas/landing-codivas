@@ -548,6 +548,12 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
+.col-lg-8 {
+padding: 2rem;
+  }
+  
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -1339,6 +1345,7 @@ pre code {
   .col-lg-8 {
     flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
+
   }
 
   .col-lg-9 {
