@@ -57,6 +57,18 @@
 
 
 
+### Name: [Luciano Hanna](https://github.com/yourgithubprofile)
+
+- Place: Rio de Janeiro, Brazil
+- Bio: Full-stack, Android and IoT developer
+
+### Development
+
+- Front-end development (HTML, CSS, JS, Vue)
+- Back-end development (Node.js, PHP, SQL)
+- Mobile development (Android/Java)
+- IoT development (Arduino, C, C++)
+
 ### Name: [YOUR NAME ](https://github.com/yourgithubprofile)
 
 - Place: city, country
