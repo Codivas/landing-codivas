@@ -553,7 +553,7 @@ pre code {
 .col-lg-8 {
 padding: 2rem;
   }
-  
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -2957,6 +2957,28 @@ input[type=button].btn-block {
   width: 100%;
 }
 
+.fa{
+  font-size: 25px;
+}
+.fa-github{
+  font-size: 25px;
+}
+.fa-linkedin-in{
+  font-size: 25px;
+}
+
+.fa-instagram{
+  font-size: 25px;
+}
+
+
+.fa-phone{
+  font-size: 62px;
+}
+.fa-envelope{
+  font-size: 62px;
+}
+
 .fade {
   transition: opacity 0.15s linear;
 }
@@ -3977,6 +3999,14 @@ input[type=button].btn-block {
 }
 .tab-content > .active {
   display: block;
+}
+
+.margin-height{
+  margin: 3rem 0;
+}
+
+.space-bottom{
+  margin-bottom: 42px;
 }
 
 .navbar {
@@ -10031,7 +10061,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding-top: 8rem ;
 }
 
 #mainNav {
@@ -10178,6 +10208,7 @@ header.masthead h1 {
   justify-content: center;
   align-items: center;
   margin-top: 7rem;
+  margin-bottom: 2rem;
 }
 
 #instagram {
@@ -10186,7 +10217,7 @@ header.masthead h1 {
   margin: 0.5rem;
  }
 
- 
+
 #linkedin {
   width: 3.2rem;
   height: 3.2rem;

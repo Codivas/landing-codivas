@@ -553,7 +553,7 @@ pre code {
 .col-lg-8 {
 padding: 2rem;
   }
-  
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -10030,9 +10030,7 @@ hr.light {
   border-radius: 10rem;
 }
 
-.page-section {
-  padding: 8rem 0;
-}
+
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -10186,7 +10184,7 @@ header.masthead h1 {
   margin: 0.5rem;
  }
 
- 
+
 #linkedin {
   width: 3.2rem;
   height: 3.2rem;
