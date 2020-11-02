@@ -56,6 +56,15 @@
 - Web development (HTML, CSS, JavaScript, Python, Php, Bootstrap, Laravel, Flask, React, MySQL)
 
 
+### Name: [Karen Rodriguez](https://github.com/kleyla)
+
+- Place: Santa Cruz, Bolivia
+- Bio: Full Stack Web Developer.
+
+#### Development
+
+- Web development (HTML, CSS, JavaScript, Python, Php, Bootstrap, Laravel, Flask, React, MySQL)
+
 
 ### Name: [Luciano Hanna](https://github.com/yourgithubprofile)
 
