@@ -2971,6 +2971,9 @@ input[type=button].btn-block {
   font-size: 25px;
 }
 
+.fa-twitter{
+  font-size: 25px;
+}
 
 .fa-phone{
   font-size: 62px;
@@ -10061,7 +10064,7 @@ hr.light {
 }
 
 .page-section {
-  padding-top: 8rem ;
+  padding-top: 2rem ;
 }
 
 #mainNav {
