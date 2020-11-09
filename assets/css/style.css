@@ -10211,11 +10211,9 @@ height: 299px;
   margin: 0.5rem;
 }
 #partners{
-background-color: #80008033 !important;
+background-color: #80008033;
 opacity: 1;
 }
-
-
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
