@@ -20451,6 +20451,22 @@ header.masthead h1 {
   margin: 0.5rem;
 }
 
-.partners{
+.partners {
   background-color: gray;
   }
+
+.job {
+    display:none;
+  }
+
+.load-button {
+  color:#ffffff;
+  margin: 0 auto;
+  display:block;
+  margin-top:5px;
+}
+
+.load-button:hover {
+  color:#ffffff;
+  opacity: 0.8;
+}
