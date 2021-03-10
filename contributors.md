@@ -5,7 +5,7 @@
 
 #### Development
 
-- Web development (HTML,CSS,Bootstrap,PHP,SQL)
+- Web development (HTML,CSS,Bootstrap,PHP,SQL) (Wordpress, OctoberCMS)
 - APP Development (Android, Kotlin ,Java, Xamarin)
 - Software Development (C#, .NET)
 - Internet of things (C++,C, Arduino, NodeMCU)
