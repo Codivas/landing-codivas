@@ -1,6 +1,6 @@
 ### Name: [CAMILA MONTEIRO](https://github.com/monteirocamis)
 
-- Place: São Paulo e São Paulo,  Brazil
+- Place: São Paulo e São José dos Campos,  Brazil
 - Bio: Devops Developer
 
 #### Development
