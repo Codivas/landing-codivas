@@ -13,7 +13,7 @@
 
 #### Projects
 
-- Codivas - Cowork Agency - OpenSource (www.codivas.com.br - https://github.com/codivas)
+- Codivas - Collaborative Agency - OpenSource (www.codivas.com.br - https://github.com/codivas)
 - Camon - Brand - Clothes made with sustainable design (https://www.ateliecamon.com.br - instagram.com/camon.atelie)
 - 3DPrint - (instagram.com/eclot_tech)
 
