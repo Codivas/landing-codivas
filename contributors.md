@@ -1,19 +1,21 @@
 ### Name: [CAMILA MONTEIRO](https://github.com/monteirocamis)
 
-- Place: São Paulo, Brazil
-- Bio: Front-End , IoT and Android Developer.
+- Place: São Paulo e São Paulo,  Brazil
+- Bio: Devops Developer
 
 #### Development
 
-- Web development (HTML,CSS,JavaScript,C++,Bootstrap,React, PHP,Android,mySQL)
-- Internet of things & Wearables (C++,Arduino, NodeMCU)
+- Web development (HTML,CSS,Bootstrap,PHP,SQL)
+- APP Development (Android, Kotlin ,Java, Xamarin)
+- Software Development (C#, .NET)
+- Internet of things (C++,C, Arduino, NodeMCU)
+- DevOps ( Trello, Jira, Docker, Github, Gitlab , Slack)
 
 #### Projects
 
-- TrocaTex - OpenSource - Exchange of leftovers of textiles (https://github.com/monteirocamis/trocatexproject)
-- Codivas - cowork - OpenSource (https://github.com/codivas)
-- Camon - Brand - Clothes made with sustainable design and wearable projects(https://www.ateliecamon.com.br)
-
+- Codivas - Cowork Agency - OpenSource (www.codivas.com.br - https://github.com/codivas)
+- Camon - Brand - Clothes made with sustainable design (https://www.ateliecamon.com.br - instagram.com/camon.atelie)
+- 3DPrint - (instagram.com/eclot_tech)
 
 ### Name: [Casiimir Casimiro](https://github.com/casiimir)
 
