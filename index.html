@@ -38,6 +38,8 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/style.css" rel="stylesheet" />
+    <!-- animation AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -75,7 +77,7 @@
             class="img-logo"
             src="assets/img/logo-codivas-horizontal.png"
             alt="escrito coletivo codivas"
-            title="logotipo codivas"
+            title="logotipo codivas"data-aos="flip-down"
           />
         </a>
         <button
@@ -122,7 +124,7 @@
 
     <!-- Masthead-->
     <header class="masthead">
-      <div class="container h-100">
+      <div class="container h-100" data-aos="zoom-in">
         <div
           class="row h-100 align-items-center justify-content-center text-center"
         >
@@ -145,7 +147,7 @@
     </header>
     <!-- sobre-->
     <section class="page-section bg-primary" id="sobre">
-      <div class="container">
+      <div class="container" data-aos="zoom-out-down">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <h2 class="text-white mt-0">Traga seu projeto para a realidade!</h2>
@@ -162,7 +164,7 @@
               class="btn btn-light btn-xl js-scroll-trigger"
               href="https://api.whatsapp.com/send?phone=5511949230302&text=sua%20mensagem"
               target="_blank"
-              >Solicite um orçamento!</a
+              data-aos="flip-left">Solicite um orçamento!</a
             >
           </div>
         </div>
@@ -171,10 +173,10 @@
     <!-- services-->
     <section class="page-section py-5" id="services">
       <div class="container">
-        <h2 class="text-center mt-0">Serviços</h2>
+        <h2 class="text-center mt-0" data-aos="zoom-in">Serviços</h2>
         <hr class="divider my-4" />
         <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 text-center" data-aos="zoom-out-right">
             <div class="mt-5">
               <i class="fas fa-laptop-code fa-4x text-primary mb-4"></i>
               <h3 class="h4 mb-2">Desenvolvimento Web e Mobile</h3>
@@ -183,7 +185,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 text-center" data-aos="zoom-out-left">
             <div class="mt-5">
               <i class="far fa-4x fa-gem text-primary mb-4"></i>
               <h3 class="h4 mb-2">Wordpress</h3>
@@ -192,7 +194,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 text-center" data-aos="zoom-out-right">
             <div class="mt-5">
               <i class="fa fa-4x fa-shopping-bag text-primary mb-4"></i>
               <h3 class="h4 mb-2">Midias Sociais</h3>
@@ -202,7 +204,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 text-center" data-aos="zoom-out-left">
             <div class="mt-5">
               <i class="fa fa-4x fa-heart text-primary mb-4"></i>
               <h3 class="h4 mb-2">Feito com amor</h3>
@@ -217,7 +219,7 @@
     <!-- Portfolio-->
 
     <section class="" id="portfolio">
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <h2 class="mt-0">Portfólio</h2>
@@ -230,7 +232,9 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters">
           <!-- box 18-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://dev.biodoctor.app/"
@@ -249,7 +253,9 @@
             </a>
           </div>
           <!-- box 17-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="http://racaesaude.org.br/"
@@ -270,7 +276,9 @@
             </a>
           </div>
           <!-- box 16-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://jaque.somavantagens.com.br/"
@@ -289,7 +297,9 @@
             </a>
           </div>
           <!-- box 15-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://faircloset.com.br/"
@@ -308,7 +318,9 @@
             </a>
           </div>
           <!-- box 14-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://lilyfranco.com/"
@@ -327,7 +339,9 @@
             </a>
           </div>
           <!-- box 13-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://saluto.group/"
@@ -346,7 +360,9 @@
             </a>
           </div>
           <!-- box 12-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://www.grupoorion.com.br/novosite/"
@@ -365,7 +381,9 @@
             </a>
           </div>
           <!-- box 11-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://imaginedone.com.br/"
@@ -384,7 +402,9 @@
             </a>
           </div>
           <!-- box 10-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://oamorconvence.com.br/"
@@ -405,7 +425,9 @@
             </a>
           </div>
           <!-- box 9-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://neokai.com.br"
@@ -424,7 +446,9 @@
             </a>
           </div>
           <!-- box 8-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://ipser.com.br/"
@@ -443,7 +467,9 @@
             </a>
           </div>
           <!-- box 7-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://www.hiltongordilho.com.br/pt/inicio/"
@@ -464,7 +490,9 @@
             </a>
           </div>
           <!-- box 6-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://www.we-loop.com.br"
@@ -483,7 +511,9 @@
             </a>
           </div>
           <!-- box 5-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="http://www.georgiahalal.com.br"
@@ -502,7 +532,9 @@
             </a>
           </div>
           <!-- box 4-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="http://www.ateliecamon.com.br"
@@ -521,7 +553,9 @@
             </a>
           </div>
           <!-- box 3-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="http://www.petraquim.com.br "
@@ -541,7 +575,9 @@
             </a>
           </div>
           <!-- box 2-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://www.leveartedecuidar.com.br"
@@ -563,7 +599,9 @@
             </a>
           </div>
           <!-- box 1-->
-          <div class="col-lg-4 col-sm-6 job">
+          <div class="col-lg-4 col-sm-6 job" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a
               class="portfolio-box"
               href="https://www.noticiasdomomento.com.br"
@@ -587,7 +625,9 @@
       </div>
       <!--load more button -->
       <button
-        class="btn btn-primary btn-xl js-scroll-trigger text-white load-button"
+        class="btn btn-primary btn-xl js-scroll-trigger text-white load-button" data-aos="zoom-up-down"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
       >
         Carregar mais
       </button>
@@ -596,7 +636,7 @@
     <!--  team -->
     <section id="time">
       <div class="container page-section">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="fade-down">
           <div class="col-lg-8 text-center">
             <h2 class="mt-0">Time</h2>
             <hr class="divider purple my-4" />
@@ -606,9 +646,9 @@
           </div>
         </div>
 
-        <div class="row margin-height">
+        <div class="row margin-height" data-aos="fade-in-right">
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-right">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/camila.jpg"
@@ -642,7 +682,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-left">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/fernanda.jpg"
@@ -677,7 +717,7 @@
           </div>
 
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-right">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/natalia.jpg"
@@ -718,7 +758,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-left">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/priscila.jpg"
@@ -744,7 +784,7 @@
 
         <div class="row time">
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-right">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/gisele.jpg"
@@ -765,7 +805,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-left">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/paula.jpg"
@@ -786,7 +826,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-right">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/ester.jpg"
@@ -820,7 +860,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-left">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/natayra.jpg"
@@ -849,7 +889,7 @@
         <!-- 3 linha de colaboradoras -->
         <div class="row margin-height">
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-right">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/silvia.jpg"
@@ -870,7 +910,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-left">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/alessandra.jpg"
@@ -892,7 +932,7 @@
           </div>
 
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-right">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/andressa.jpeg"
@@ -910,7 +950,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="team-member text-center">
+            <div class="team-member text-center" data-aos="fade-down-left">
               <img
                 class="mx-auto mb-4 rounded-circle"
                 src="assets/img/team/debora.jpg"
@@ -929,14 +969,14 @@
     <!-- Partners -->
     <section class="py-5" id="partners">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="fade-right">
           <div class="col-lg-8 text-center">
             <h2 class="mt-0">Parceiros</h2>
             <hr class="divider purple my-4" />
           </div>
         </div>
-        <div class="row align-items-center">
-          <div class="col-md-3 col-sm-6 py-4">
+        <div class="row justify-content-center">
+          <div class="col-md-3 col-sm-6 py-4" data-aos="zoom-in-up">
             <a
               href="https://www.umbler.com/br/seja-bem-vindo?a=j37zlgdk"
               target="_blank"
@@ -946,7 +986,7 @@
                 alt="UMBLER"
             /></a>
           </div>
-          <div class="col-md-3 col-sm-6 py-4">
+          <div class="col-md-3 col-sm-6 py-4" data-aos="zoom-in-up">
             <a href="https://sitedahash.com.br/" target="_blank"
               ><img
                 class="img-fluid d-block mx-auto bg-dark"
@@ -954,7 +994,7 @@
                 alt="HASH"
             /></a>
           </div>
-          <div class="col-md-3 col-sm-6 py-4">
+          <div class="col-md-3 col-sm-6 py-4" data-aos="zoom-in-up">
             <a href="https://www.freehelper.com.br/" target="_blank"
               ><img
                 class="img-fluid d-block mx-auto"
@@ -969,7 +1009,7 @@
     <!-- Contact-->
     <section class="page-section" id="contact">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="zoom-in-down" data-aos-duration="1000">
           <div class="col-lg-8 text-center">
             <h2 class="mt-0">Fale conosco!</h2>
             <hr class="divider my-4" />
@@ -980,7 +1020,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-sm-6 ml-auto text-center mb-5 mb-lg-0">
+          <div class="col-lg-4 col-sm-6 ml-auto text-center mb-5 mb-lg-0" data-aos="fade-down-right" data-aos-duration="1000">
             <i class="fa fa-phone fa-3x mb-3 text-muted"></i>
             <div>
               <a
@@ -991,7 +1031,7 @@
               >
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 mr-auto text-center">
+          <div class="col-lg-4 col-sm-6 mr-auto text-center" data-aos="fade-down-right" data-aos-duration=1000">
             <i class="fa fa-envelope fa-3x mb-3 text-muted"></i>
             <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
             <a class="d-block" href="mailto:contato@codivas.com.br"
@@ -1000,13 +1040,13 @@
           </div>
         </div>
       </div>
-      <div class="containerSocial">
+      <div class="containerSocial"  data-aos="fade-right">
         <a target="blank" href="https://www.instagram.com/coletivo.codivas/"
           ><img
             id="instagram"
             src="assets/img/portfolio/social/instagram-logo.png"
             alt=" imagem instagram Codivas"
-            title="Instagram Codivas"
+            title="Instagram Codivas" data-aos="flip-left" data-aos-duration="2000"
         /></a>
         <a
           target="blank"
@@ -1015,14 +1055,14 @@
           title="Instagram Linkedin"
           ><img
             id="linkedin"
-            src="assets/img/portfolio/social/linkedin-logo.png"
+            src="assets/img/portfolio/social/linkedin-logo.png" data-aos="flip-left" data-aos-duration="2000"
         /></a>
         <a target="blank" href="https://github.com/Codivas"
           ><img
             id="github"
             src="assets/img/portfolio/social/github-logo.png"
             alt=" imagem Github Codivas"
-            title="Github Codivas"
+            title="Github Codivas" data-aos="flip-left" data-aos-duration="2000"
         /></a>
       </div>
     </section>
@@ -1046,6 +1086,11 @@
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <!-- animation AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="js/load-more-button.js"></script>
