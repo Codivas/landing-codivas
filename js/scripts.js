@@ -59,5 +59,7 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });*/
-
+  AOS.init({
+    duration: 1000,
+  })
 })(jQuery); // End of use strict
