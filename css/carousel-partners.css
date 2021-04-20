@@ -1,0 +1,51 @@
+#partners{
+  padding-bottom: 119px!important;
+}
+
+#carousel-partners img{
+  float: left;
+  padding: 20px;
+}
+
+.img-partners{
+  width: 97%!important;
+  height: 100px !important;
+  border: none;
+}
+
+#carousel-partners .carousel{
+  position: absolute;
+}
+
+#carousel-partners .carousel-inner {
+  position: absolute !important;
+  width: 100% !important;
+  margin-left: 137px;
+  overflow: hidden;
+}
+
+#carousel-partners .carousel-item {
+  width: 80% !important;
+}
+
+#carousel-partners .carousel-control-prev, .carousel-control-next{
+  opacity: 1 !important;
+  background-color: #800080;
+  width: 3% !important;
+  height: 14% !important;
+  padding: 10px 10px;
+  border-radius: 7px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative !important;
+}
+
+#carousel-partners a {
+  color: inherit;
+  transition: .2s;
+}
+#carousel-partners .row{
+  flex-wrap: nowrap !important;
+}
