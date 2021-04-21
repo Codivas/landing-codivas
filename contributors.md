@@ -80,6 +80,15 @@
 - Mobile development (Android/Java)
 - IoT development (Arduino, C, C++)
 
+### Name: [Giulia Fiorenzano](https://github.com/giufiorenzano)
+
+- Place: Florianópolis, Brazil
+- Bio: Front-end Developer
+
+#### Development
+
+- Web development (HTML, CSS, JavaScript, Bootstrap, React)
+
 ### Name: [YOUR NAME ](https://github.com/yourgithubprofile)
 
 - Place: city, country

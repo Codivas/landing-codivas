@@ -1,17 +1,13 @@
 #partners{
   padding-bottom: 119px!important;
+} 
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-#carousel-partners img{
-  float: left;
-  padding: 20px;
-}
-
-.img-partners{
-  width: 97%!important;
-  height: 100px !important;
-  border: none;
-}
 
 #carousel-partners .carousel{
   position: absolute;
@@ -20,12 +16,11 @@
 #carousel-partners .carousel-inner {
   position: absolute !important;
   width: 100% !important;
-  margin-left: 137px;
   overflow: hidden;
 }
 
 #carousel-partners .carousel-item {
-  width: 80% !important;
+  width: 100% !important;
 }
 
 #carousel-partners .carousel-control-prev, .carousel-control-next{
