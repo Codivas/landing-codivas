@@ -549,6 +549,11 @@ pre code {
   margin-left: auto;
 }
 
+#landingcadastro img{
+  width:60rem;
+
+}
+
 
 .col-lg-8 {
 padding: 2rem;
@@ -10170,7 +10175,7 @@ header.masthead h1 {
 .portfolio-box{
   border-bottom-width: 4px;
   border-bottom-style: solid;
-height: 299px;
+  height: 299px;
 }
 @media (max-width: 900px) {
   .portfolio-box {
