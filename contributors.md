@@ -89,15 +89,14 @@
 
 - Web development (HTML, CSS, JavaScript, Bootstrap, React)
 
-### Name: [YOUR NAME ](https://github.com/yourgithubprofile)
+### Name: [Michele Barreto ](https://github.com/michelebarreto)
 
-- Place: city, country
-- Bio: Full stack? Web designer? Programmer ...Put everything here
+- Place: Salvador, Bahia - Brasil
+- Bio: Front-end Developer
 
 ### Development
 
-- What languages do you use?
-- what else you know?
+-  Web development (HTML, CSS3, JavaScript, Bootstrap, React)
 
 ### Projects
 
