@@ -4625,6 +4625,20 @@ input[type=button].btn-block {
 
 }
 
+/*CARDS PARCEIROS*/
+
+#cardParceiros{
+  align-items:center;
+}
+
+.cardsParceiros img{
+    margin-top:2em; 
+    max-width:60%;
+  
+}
+
+
+
 .accordion > .card {
   overflow: hidden;
 }
