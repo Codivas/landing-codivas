@@ -26,11 +26,11 @@
 #carousel-partners .carousel-control-prev, .carousel-control-next{
   opacity: 1 !important;
   background-color: #800080;
-  width: 3% !important;
+  width: 6% !important;
   height: 14% !important;
-  padding: 10px 10px;
+  padding: 10px 0px;
   border-radius: 7px;
-  margin-top: 24px;
+  margin-top: 72px;
   margin-bottom: 20px;
   margin-left: 50px;
   margin-right: 50px;
