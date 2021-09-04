@@ -4745,6 +4745,7 @@ a.badge:hover, a.badge:focus {
   padding-right: 0.6em;
   padding-left: 0.6em;
   border-radius: 10rem;
+  
 }
 
 .badge-primary {
@@ -14680,7 +14681,7 @@ input[type=button].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  min-height: 1px;
+  min-height: 0.px;
   padding: 1.25rem;
 }
 
