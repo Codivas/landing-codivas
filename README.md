@@ -1,6 +1,9 @@
 # landing-codivas-V1
 Projeto Open source de site para o coletivo Codivas.
 
+![Screenshot 2021-09-04 at 22-30-08 coletivo codivas](https://user-images.githubusercontent.com/26682838/132111979-e45e43a9-65b4-434f-9e09-d4e2143fb8f7.png)
+
+
 Repositório colaborativo principalmente para desenvolvedoras e designers mulheres.
 Participante do hacktoberfest 2020.
 
