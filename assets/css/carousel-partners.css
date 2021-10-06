@@ -2,6 +2,7 @@
   padding-bottom: 90px!important;
     margin-bottom: 65px;
 } 
+ 
 
 .wrapper{
   width: 100vw;
@@ -11,14 +12,17 @@
   justify-content: center;
 }
 
+
 .slider{
  width: 84vw;
  height: 100px;
  position: relative;
  border: 1px solid #d0bfdd;
  box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2);
- display: flex;
  overflow: hidden;
+}
+.NZ-1-7{
+  width:100%;
 }
 
 .slide{

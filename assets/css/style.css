@@ -10308,7 +10308,7 @@ opacity: 1;
 }
 
 
-@charset "UTF-8";
+
 /*!
 * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
 * Copyright 2013-2020 Start Bootstrap
@@ -10366,6 +10366,7 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+
 
 body {
   margin: 0;
@@ -20440,6 +20441,7 @@ hr.light {
 }
 
 header.masthead {
+  width:100%;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/portfolio/banner/banner4.jpg");
