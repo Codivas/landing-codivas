@@ -1,0 +1,24 @@
+.formContactContainer{
+}
+
+.formContact{
+    height: 100%;
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.formContact img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.formContact a{
+    width: 112px;
+    height: 38px;
+
+}
+.formContact .devsContact{
+    margin-top: 26px;
+}
