@@ -26,6 +26,9 @@
 
   <!-- carousel-partners-->
   <link href="assets/css/carousel-partners.css" rel="stylesheet" />
+
+  <!-- froms-contact -->
+  <link rel="stylesheet" href="assets/css/froms-contact.css">
   
   <!-- Google Tag Manager -->
   <script>
@@ -129,21 +132,23 @@ window.onload = function () {
   
   <div id="ac-wrapper" style='display:none'>
     <div id="popup">
-        <center>
-		<div class="d-flex justify-content-center container mt-5">
-    <div class="row">
-        <div class="col-md-10">
-            <div class="d-flex flex-row justify-content-between align-items-center card cookie p-3">
+      <center>
+        <div class="d-flex justify-content-center container mt-5">
+          <div class="row">
+            <div class="col-md-10">
+              <div class="d-flex flex-row justify-content-between align-items-center card cookie p-3">
                 <div class="d-flex flex-row align-items-center"><img src="https://i.imgur.com/Tl8ZBUe.png" width="40">
+
                     <div class="ml-2 mr-2"><span>nós usamos cookies de terceiros para personalizar conteúdo, anúncios e&nbsp; analisar o tráfego do site.<br></span><a class="learn-more" href="#">saber mais<i class="fa fa-angle-right ml-2"></i></a></div>
                 </div>
                 <div>  <input type="submit" name="submit" value="concordar" onClick="PopUp('hide')" /></div>
+
             </div>
+          </div>
         </div>
+      </center>
     </div>
-</div>        </center>
-    </div>
-</div
+  </div>
     
   <!-- sobre-->
   <section class="page-section bg-primary" id="sobre">
@@ -666,7 +671,6 @@ window.onload = function () {
                   </ul>
                 </div>
               </div>
-
             </div>
           </div>
       </section>
@@ -709,8 +713,6 @@ window.onload = function () {
         </div>
       </div>
       <!--título-->
-
-
       <!--carousel-partners-->
       <div class="slider NZ-1-7">
         <div class="slide">
@@ -754,27 +756,21 @@ window.onload = function () {
           </div> -->
         </div>
 
-
       <!-- folder 2 -->
       <div class="col card border-light card text-center" >
         <img src="./assets/img/partners/ingles.png" ></img>
       </div>
-
 
       <!-- folder 3 -->
       <div class="col card border-light card text-center" >
         <img src="./assets/img/partners/contatoCodZero.jpeg" ></img>
       </div>
 
-
       <!-- folder 4 -->
       <!--<div class="col card border-light card text-center" >
         <img src="./assets/img/partners/codandozero.jpg" ></img>
-
       </div>-->
-
-
-
+      
     </div>
   </div>
 
@@ -786,41 +782,56 @@ window.onload = function () {
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">fale conosco!</h2>
           <hr class="divider my-4" />
-          <p class="text-muted mb-5">
-            pronto para começar seu próximo projeto conosco? entre em contato
-            que retornaremos o quanto antes!
-          </p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 ml-auto text-center mb-5 mb-lg-0" data-aos="fade-down-right"
-          data-aos-duration="1000">
-          <i class="fa fa-phone fa-3x mb-3 text-muted"></i>
-          <div>
-            <a href="https://api.whatsapp.com/send?phone=5511949230302&text=sua%20mensagem" target="_blank">
-              (11) 9 4923-0302</a>
+        <div class="row">
+          <!-- form clients -->
+          <div class="formContactContainer col-sm-12 col-lg-6">
+            <form class="formContact">
+            <img src="./assets/img/formCli.png" alt="image forms devs" />
+                  <a class="btn btn-primary badge-pill text-white" href="https://docs.google.com/forms/d/e/1FAIpQLScBJDDlL1LqvpFbvdRuItuDXlPOjMjxDfOSjXguzuULKB--LA/viewform">
+                    Contato
+                  </a>
+            </form>
+          </div>
+          <div class="formContactContainer col-sm-12 mt-sm-4 mt-md-4 col-lg-6 mt-lg-0">
+            <form class="formContact">
+              <img src="./assets/img/formDevs.png" alt="image forms devs" />
+                  <a class="btn btn-primary badge-pill text-white devsContact" href="https://docs.google.com/forms/d/e/1FAIpQLSeqT5pnviIC0pYfQIQVAz70ANdfmdLiMSu5AKdeI594dDt37w/alreadyresponded">
+                    Cadastro
+                  </a>
+            </form>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mr-auto text-center" data-aos="fade-down-right" data-aos-duration=1000">
-          <i class="fa fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-          <a class="d-block" href="mailto:contato@codivas.com.br">contato@codivas.com.br</a>
-        </div>
-      </div>
-    </div>
-    <div class="containerSocial" data-aos="fade-right">
-      <a target="blank" href="https://www.instagram.com/coletivo.codivas/"><img id="instagram"
-          src="assets/img/portfolio/social/instagram-logo.png" alt=" imagem instagram Codivas" title="Instagram Codivas"
-          data-aos="flip-left" data-aos-duration="2000" /></a>
-      <a target="blank" href="https://www.linkedin.com/company/coletivo-codivas/" alt=" imagem Linkedin Codivas"
-        title="Instagram Linkedin"><img id="linkedin" src="assets/img/portfolio/social/linkedin-logo.png"
-          data-aos="flip-left" data-aos-duration="2000" /></a>
-      <a target="blank" href="https://github.com/Codivas"><img id="github"
-          src="assets/img/portfolio/social/github-logo.png" alt=" imagem Github Codivas" title="Github Codivas"
-          data-aos="flip-left" data-aos-duration="2000" /></a>
+      <div>
     </div>
   </section>
-
+  <div class="row mt-5">
+    <div class="col-sm-6 col-md-6 col-lg-4 ml-auto text-center mb-5 mb-lg-0" data-aos="fade-down-right"
+      data-aos-duration="1000">
+      <i class="fa fa-phone fa-3x mb-3 text-muted"></i>
+      <div>
+        <a href="https://api.whatsapp.com/send?phone=5511949230302&text=sua%20mensagem" target="_blank">
+          (11) 9 4923-0302</a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-4 mr-auto text-center" data-aos="fade-down-right" data-aos-duration="1000">
+      <i class="fa fa-envelope fa-3x mb-3 text-muted"></i>
+      <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
+      <a class="d-block" href="mailto:contato@codivas.com.br">contato@codivas.com.br</a>
+    </div>
+  </div>
+  <!-- redes -->
+  <div class="containerSocial" data-aos="fade-right">
+    <a target="blank" href="https://www.instagram.com/coletivo.codivas/"><img id="instagram"
+        src="assets/img/portfolio/social/instagram-logo.png" alt=" imagem instagram Codivas" title="Instagram Codivas"
+        data-aos="flip-left" data-aos-duration="2000" /></a>
+    <a target="blank" href="https://www.linkedin.com/company/coletivo-codivas/" alt=" imagem Linkedin Codivas"
+      title="Instagram Linkedin"><img id="linkedin" src="assets/img/portfolio/social/linkedin-logo.png"
+        data-aos="flip-left" data-aos-duration="2000" /></a>
+    <a target="blank" href="https://github.com/Codivas"><img id="github"
+        src="assets/img/portfolio/social/github-logo.png" alt=" imagem Github Codivas" title="Github Codivas"
+        data-aos="flip-left" data-aos-duration="2000" /></a>
+  </div>
 
   <!-- Footer-->
   <footer class="bg-light py-5">
