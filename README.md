@@ -1,7 +1,13 @@
 # landing-codivas-V1
 Projeto Open source de site para o coletivo Codivas.
 
-![Screenshot 2021-09-04 at 22-30-08 coletivo codivas](https://user-images.githubusercontent.com/26682838/132111979-e45e43a9-65b4-434f-9e09-d4e2143fb8f7.png)
+![codivas1](https://user-images.githubusercontent.com/66797088/136761877-51de0548-520d-4293-a93d-b43e1f9bd80a.png)
+![codivas2](https://user-images.githubusercontent.com/66797088/136761981-5152a05f-66e6-4feb-b43c-35a910a87c74.png)
+![codivas3](https://user-images.githubusercontent.com/66797088/136762028-684d2314-4465-4c07-8173-015d01d39bed.png)
+![codivas 4](https://user-images.githubusercontent.com/66797088/136762110-12ca9c78-6740-4ca9-877e-600eb7faae4e.png)
+![codivas5](https://user-images.githubusercontent.com/66797088/136762145-a440b20c-4705-482b-8f00-630ebd71a220.png)
+![codivas6](https://user-images.githubusercontent.com/66797088/136762177-02046e92-9c8d-4072-b211-3282b14b43f7.png)
+![codivas7](https://user-images.githubusercontent.com/66797088/136762207-09f8b8e0-b0c0-41de-af3d-ee46edb5569c.png)
 
 
 Repositório colaborativo principalmente para desenvolvedoras e designers mulheres.
