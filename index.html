@@ -19,16 +19,26 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
   <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
 
   <!-- animation AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- carousel-partners-->
-  <link href="css/carousel-partners.css" rel="stylesheet" />
-
+  <link href="assets/css/carousel-partners.css" rel="stylesheet" />
+  
   <!-- Google Tag Manager -->
   <script>
+    	function PopUp(hideOrshow) {
+    if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+    else document.getElementById('ac-wrapper').removeAttribute('style');
+}
+window.onload = function () {
+    setTimeout(function () {
+        PopUp('show');
+    }, 3000);
+}
+    
     (function (w, d, s, l, i) {
       w[l] = w[l] || [];
       w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -83,7 +93,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">contato</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="http://blog.codivas.com.br/">blog</a>
+          </li>
           <li class="nav-item"></li>
         </ul>
         <a href="https://forms.gle/Xysa5Na65Fi2ure8A"><button class="btn btn-primary badge-pill text-white "> cadastre-se</button></a>
@@ -97,10 +109,10 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end" data-aos="fade-right" data-aos-duration="2000">
-          <h1 class="text-uppercase text-white font-weight-bold">
+          <h1 class="text-lowercase text-white font-weight-bold">
             codivas
           </h1>
-          <h2 class="text-uppercase text-white font-weight-bold">
+          <h2 class="text-lowercase text-white font-weight-bold">
             cooptech de mulheres da tecnologia
           </h2>
           <hr class="divider my-4" />
@@ -112,7 +124,27 @@
         </div>
       </div>
     </div>
-  </header>
+  </header> 
+  
+  
+  <div id="ac-wrapper" style='display:none'>
+    <div id="popup">
+        <center>
+		<div class="d-flex justify-content-center container mt-5">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="d-flex flex-row justify-content-between align-items-center card cookie p-3">
+                <div class="d-flex flex-row align-items-center"><img src="https://i.imgur.com/Tl8ZBUe.png" width="40">
+                    <div class="ml-2 mr-2"><span>We use third party cookies to personalize content, ads and&nbsp; analyze site traffic.<br></span><a class="learn-more" href="#">Learn more<i class="fa fa-angle-right ml-2"></i></a></div>
+                </div>
+                <div>  <input type="submit" name="submit" value="Submit" onClick="PopUp('hide')" /></div>
+            </div>
+        </div>
+    </div>
+</div>        </center>
+    </div>
+</div
+    
   <!-- sobre-->
   <section class="page-section bg-primary" id="sobre">
     <div class="container" data-aos="zoom-out-down">
@@ -120,15 +152,15 @@
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0">traga seu projeto para a realidade!</h2>
           <hr class="divider light my-4" />
-          <p class="text-white-50 mb-4">
+          <p class="text-white mb-4">
             somos uma startup coletiva de profissionais freelancers mulheres , para
             criação ou manutenção de sites e aplicativos. temos experiência
             com diversas linguagens de programação e plataformas do mercado.
           </p>
-          <p class="text-white-50 mb-4">
+          <p class="text-white mb-4">
             esteja pronto para atender o mercado digital!
           </p>
-          <a class="btn btn-light btn-xl js-scroll-trigger"
+          <a class="btn btn-light btn-xl js-scroll-trigger text-lowercase "
             href="https://api.whatsapp.com/send?phone=5511949230302&text=sua%20mensagem" target="_blank"
             data-aos="flip-left">solicite um orçamento!</a>
         </div>
@@ -141,7 +173,7 @@
       <h2 class="text-center mt-0" data-aos="zoom-in">serviços</h2>
       <hr class="divider my-4" />
       <div class="row">
-        <div class="col-lg-3 col-md-6 text-center" data-aos="zoom-out-right">
+        <div class="col-lg-4 col-md-4 text-center" data-aos="zoom-out-right">
           <div class="mt-5">
             <i class="fas fa-laptop-code fa-4x text-primary mb-4"></i>
             <h3 class="h4 mb-2">desenvolvimento web e mobile</h3>
@@ -150,7 +182,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center" data-aos="zoom-out-left">
+        <div class="col-lg-4 col-md-4 text-center" data-aos="zoom-out-left">
           <div class="mt-5">
             <i class="far fa-4x fa-gem text-primary mb-4"></i>
             <h3 class="h4 mb-2">wordpress</h3>
@@ -159,17 +191,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center" data-aos="zoom-out-right">
-          <div class="mt-5">
-            <i class="fa fa-4x fa-icons text-primary mb-4"></i>
-            <h3 class="h4 mb-2">tráfego - análises de dados </h3>
-            <p class="text-muted mb-0">
-              SEO, anúncios, integração com plataformas de CRM, e-mail marketing e
-              analytics!
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center" data-aos="zoom-out-left">
+        <div class="col-lg-4 col-md-4 text-center" data-aos="zoom-out-left">
           <div class="mt-5">
             <i class="fa fa-4x fa-paint-brush text-primary mb-4"></i>
             <h3 class="h4 mb-2">UX/UI design e mídias sociais</h3>
@@ -464,7 +486,7 @@
       </div>
     </div>
     <!--load more button -->
-    <button class="btn btn-primary btn-xl js-scroll-trigger text-white load-button" data-aos="zoom-up-down"
+    <button class="btn btn-primary btn-xl js-scroll-trigger text-white load-button text-lowercase" data-aos="zoom-up-down"
       data-aos-easing="ease-out-cubic" data-aos-duration="2000">
       carregar mais
     </button>
@@ -490,7 +512,7 @@
             <p class="h3 mb-2 text-center">
               cooptech open-source feminista 
             </p>
-            <p class="agencia-text p-3">
+            <p class="agencia-text p-3 text-lowercase">
               uma cooptech para organização e divulgação de profissionais mulheres que criam e transformam designs em
               sites, Apps ou sistemas.
               <br>montamos times em DevOps para atender demandas de projetos com empresas parceiras e integrantes do coletivo codivas.
@@ -679,8 +701,8 @@
   <section class="py-5" id="partners">
     <div class="container">
       <!-- todos -->
-      <div class="row justify-content-center" data-aos="fade-right">
-        <!--título-->
+      <div class="row justify-content-center">
+      <!--título-->
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">parceiros</h2>
           <hr class="divider purple my-4" />
@@ -688,74 +710,30 @@
       </div>
       <!--título-->
 
-      
+
       <!--carousel-partners-->
-      <div id="carousel-partners" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
-                <img class="img-fluid img-partners d-block umbler" src="assets/img//partners/umbler.png"
-                  alt="logo partners">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
-                <img class="img-fluid img-partners d-block hash" src="assets/img//partners/HASH.png"
-                  alt="logo partners">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
-                <img class="img-fluid img-partners d-block freehelper" src="assets/img//partners/FREEHELPER.png"
-                  alt="logo partners">
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
-                <img class="img-fluid img-partners d-block tudux" src="assets/img//partners/tudux.png"
-                  alt="logo partners">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
-                <img class="img-fluid img-partners d-block escale" src="assets/img//partners/escale.png"
-                  alt="logo partners">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
-                <img class="img-fluid img-partners d-block cloudways" src="assets/img//partners/cloudways-white.png"
-                  alt="logo partners">
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
-                <img class="img-fluid img-partners d-block aws" src="assets/img//partners/aws partnert.png"
-                  alt="logo partners">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
-                <img class="img-fluid img-partners d-block formattech" src="assets/img//partners/format-tech.png"
-                  alt="logo partners">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
-                <img class="img-fluid img-partners d-block weboption" src="assets/img//partners/weboption.png"
-                  alt="logo partners">
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="d-flex justify-content-between">
-          <a class="carousel-control-prev" href="#carousel-partners" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carousel-partners" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">next</span>
-          </a>
+      <div class="slider NZ-1-7">
+        <div class="slide">
+          <img class="img-fluid" src="assets/img//partners/umbler.png"
+          alt="logo umbler">
+          <img class="img-fluid hash" src="assets/img//partners/HASH.png"
+          alt="logo HASH">
+          <img class="img-fluid" src="assets/img//partners/FREEHELPER.png"
+          alt="logo FREEHELPER">
+          <img class="img-fluid" src="assets/img//partners/tudux.png"
+          alt="logo tudux">
+          <img class="img-fluid" src="assets/img//partners/escale.png"
+          alt="logo escale">
+          <img class="img-fluid" src="assets/img//partners/cloudways-white.png"
+          alt="logo cloudways-white">
+          <img class="img-fluid" src="assets/img//partners/aws partnert.png"
+          alt="logo aws">
+          <img class="img-fluid" src="assets/img//partners/format-tech.png"
+          alt="logo formattech">
+          <img class="img-fluid" src="assets/img//partners/weboption.png"
+          alt="logo weboption">
         </div>
       </div>
-
     </div>
     <!--container-->
   </section>
