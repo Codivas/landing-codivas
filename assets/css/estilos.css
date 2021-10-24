@@ -1,0 +1,31 @@
+.privacidade {
+    display: grid;
+    text-align: center;
+    margin-top: 2px;
+    
+
+}
+.dados{
+    display: grid;
+    text-align: center;
+    margin-top: 2px;
+    
+}
+
+.dados{
+    display: grid;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.textos {
+    align-items: center;
+    margin-top: 2px;
+}
+
+.textos1 {
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 2px;
+}
+
