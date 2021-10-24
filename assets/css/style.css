@@ -5416,7 +5416,7 @@ a.close.disabled {
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   opacity: 0;
   border-radius: 0.25rem;
 }
@@ -10265,24 +10265,12 @@ header.masthead h1 {
   margin-top: 7rem;
 }
 
-#instagram {
-  width: 2.8rem;
+.social-icon {
   height: 2.8rem;
-  margin: 0.5rem;
- }
-
-
-#linkedin {
-  width: 3.2rem;
-  height: 3.2rem;
-  margin: 0.4rem;
-}
-
-#github {
   width: 2.8rem;
-  height: 2.8rem;
   margin: 0.5rem;
 }
+
 #partners{
 background-color: #80008033 !important;
 opacity: 1;
@@ -20502,27 +20490,8 @@ header.masthead h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
-}
-
-#instagram {
-  width: 2.8rem;
-  height: 2.8rem;
-  margin: 0.5rem;
- }
-
-
-#linkedin {
-  width: 3.2rem;
-  height: 3.2rem;
-  margin: 0.4rem;
-}
-
-#github {
-  width: 2.8rem;
-  height: 2.8rem;
-  margin: 0.5rem;
 }
 
 .partners {
@@ -20575,4 +20544,14 @@ header.masthead h1 {
   background-color: #80008087;
   border: solid #800080; 
   border-width: 2px;
+}
+/*popup cookie*/
+#popup .cookie{
+  color: #fff;
+  background-color: #6b3076;
+  border-radius: 23px;
+}
+#popup input{
+  height: 37px;
+  border-radius: 50px;
 }
