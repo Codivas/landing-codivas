@@ -132,7 +132,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto my-2 my-lg-1">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html#page-top">sobre</a>
+              <a class="nav-link js-scroll-trigger" href="index.html#page-top"
+                >sobre</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="index.html#services"
@@ -145,7 +147,9 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html#nav-agencia-tab"
+              <a
+                class="nav-link js-scroll-trigger"
+                href="index.html#nav-agencia-tab"
                 >time</a
               >
             </li>
@@ -155,7 +159,9 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html#contact">contato</a>
+              <a class="nav-link js-scroll-trigger" href="index.html#contact"
+                >contato</a
+              >
             </li>
             <li class="nav-item">
               <a
@@ -176,50 +182,82 @@
       </div>
     </nav>
     <!--   pre-register form     -->
-
-    <div class="container" style="margin-top: 20em">
+    <div class="container" style="margin-top: 10em">
+      <div class="alert alert-dark" role="alert">
+        faça seu pré cadastro a abaixo:
+      </div>
+      <div id="resposta"></div>
       <div class="row">
         <div class="col"></div>
-
-        <div class="col">
-          <div class="form-floating mb-3">
-            <input
-              type="name"
-              class="form-control"
-              id="floatingname"
-              placeholder="nome completo"
-            />
+        <form action="" id="formulario" onsubmit="showData(event)">
+          <div class="col">
+            <div class="form-floating mb-3">
+              <input
+                required
+                type="name"
+                id="name"
+                class="form-control"
+                id="floatingname"
+                placeholder="Nome Completo"
+              />
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                required
+                type="email"
+                id="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="form-floating">
+              <input
+                required
+                type="username"
+                id="username"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Username"
+              />
+            </div>
+            <div
+              style="display: flex; justify-content: center; margin-top: 1em"
+            >
+              <input
+                class="btn btn-primary badge-pill text-white"
+                type="submit"
+                name="enviar"
+                id="botaoDeEnviar"
+              />
+            </div>
           </div>
-          <div class="form-floating">
-            <input
-              type="email"
-              class="form-control"
-              id="floatingInput"
-              placeholder="email"
-            />
-          </div>
-          <div style="display: flex; justify-content: center; margin-top: 1em">
-            <a class="btn btn-primary badge-pill text-white" href="#">
-              enviar
-            </a>
-          </div>
-        </div>
+        </form>
         <div class="col"></div>
       </div>
     </div>
 
     <!-- Footer-->
-    <footer class=" py-5">
-    <div class="container">
-      <div class="small text-center text-muted">
-        Copyright © 2021 - Desenvolvido em open source por coletivo codivas
-        <i class="far fa-heart"></i> e
-        <a href="https://github.com/Codivas/landing-codivas/blob/master/contributors.md">
-          contribuidores no github <i class="fas fa-coffee"></i></a>
+    <footer class="py-5">
+      <div class="container">
+        <div class="small text-center text-muted">
+          Copyright © 2021 - Desenvolvido em open source por coletivo codivas
+          <i class="far fa-heart"></i> e
+          <a
+            href="https://github.com/Codivas/landing-codivas/blob/master/contributors.md"
+          >
+            contribuidores no github <i class="fas fa-coffee"></i
+          ></a>
+        </div>
       </div>
-    </div>
-  </footer>
-
+    </footer>
+    <script src="js/precadastro.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"
+      integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
