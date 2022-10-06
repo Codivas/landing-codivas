@@ -229,6 +229,45 @@ button {
   border-radius: 0;
 }
 
+/* translate, existe uma opção para tirar a barra do google, deixei como opcionaol. */
+
+/* .goog-te-banner-frame{
+display:none !important;
+} */
+
+.goog-logo-link{
+color: #b3b7bb;
+display:none !important;
+width: auto;
+
+}
+
+#goog-gt-tt, .goog-te-balloon-frame{
+display: none !important;
+}
+
+.goog-text-highlight {
+background: none !important; 
+}
+
+#google_translate_element select{
+background-color: #800080;
+color:rgb(249, 249, 250);
+border: none;
+}
+
+.goog-text-highlight { 
+background: none !important; 
+box-shadow: none !important;
+}
+.goog-te-gadget{
+color:transparent!important;
+font-family: "Merriweather Sans";
+text-transform: uppercase;
+}
+
+    
+
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
