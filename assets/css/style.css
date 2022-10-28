@@ -236,18 +236,22 @@ button {
 
 
 .language {
-display: absolute;
+display: flex;
 justify-content: center;
 
 
 }
 .language  ul {
-  display: flex;
-  list-style-type: none;
-padding-left: 0;
+display: flex;
+list-style-type: none;
 padding-bottom: 0;
+
 justify-content: center;
 
+}
+
+.language li{
+  padding-left: 5px;
 }
 
 

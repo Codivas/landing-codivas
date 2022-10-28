@@ -10,6 +10,9 @@ $(function() {
         $(".nav-4").text("Parceiros");
         $(".nav-5").text("Contato");
         $(".nav-6").text("Cadastre-se");
+        $(".nav-7").text("desenvolvimento feito por mulheres da tecnologia");
+        $(".nav-8").text("desenvolvimento, SEO, IoT e web design");
+    
  
 
        
@@ -31,6 +34,8 @@ $(function() {
         $(".nav-4").text("Partner");
         $(".nav-5").text("Contact");
         $(".nav-6").text("Register");
+        $(".nav-7").text("development made by women of technology");
+        $(".nav-8").text("development, SEO, IoT and web design");
 
 
 
