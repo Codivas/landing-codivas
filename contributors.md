@@ -103,3 +103,13 @@
 - name - OpenSource ? - infos (https://github.com/yourprojectlink)
 - name - what you do? (https://www.yourprojectlink.com)
 - Website: [your website](https://www.yourwebsite.com)
+
+
+### Name: [Beatriz Alves ](https://github.com/bea3853)
+
+- Place: São Paulo, Brasil
+- Bio: Web Developer.
+
+#### Development
+
+- Web development (HTML, CSS, JavaScript,Bootstrap, React, React-Native, Firebase)
