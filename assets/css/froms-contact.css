@@ -1,7 +1,4 @@
-.formContactContainer{
-}
-
-.formContact{
+.formContact {
     height: 100%;
     border: 2px solid gray;
     border-radius: 30px;
@@ -9,16 +6,47 @@
     align-items: center;
     text-align: center;
 }
-.formContact img{
+
+.formContact img {
     width: 100%;
     overflow: hidden;
 }
 
-.formContact a{
+.formContact a {
     width: 112px;
     height: 38px;
 
 }
-.formContact .devsContact{
+
+.formContact .devsContact {
     margin-top: 26px;
+}
+
+.col-image {
+    background-image: url(../img/contact-us.jpg);
+    background-size: cover;
+    width: 3rem;
+    height: 30rem;
+    border-radius: 5px;
+}
+
+.row-form {
+    display: flex;
+    align-items: center;
+    margin: 3rem 0;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+}
+
+.mb-3 {
+    margin-bottom: 2rem !important;
+}
+
+#botaoDeEnviar {
+    width: 30rem !important;
+}
+
+#botaoDeEnviar:hover {
+    border: none !important;
+    background-color: #9b099b;
 }
